@@ -1,0 +1,9 @@
+<?php
+
+// Identifiants de connection à votre BDD
+define('DSN', 'mysql:host=localhost;dbname=092020_dojocrudphp');
+define('USER', 'user');
+define('PASS', 'pass');
+
+// Initialisation de la connection
+$pdo = new PDO(DSN,USER,PASS);
